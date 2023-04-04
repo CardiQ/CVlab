@@ -1,0 +1,64 @@
+E:\Anaconda3\envs\computervision\convolutionalnet\python.exe D:/mycodepy/computervision/convolutionalnet/CNN3.py
+2.0.0
+CUDA is available!
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch: 0 	Training Loss: 0.359132 	Validation Loss: 0.364028
+Validation loss decreased (inf --> 0.364028).  Saving model ...
+Epoch: 1 	Training Loss: 0.347480 	Validation Loss: 0.361213
+Validation loss decreased (0.364028 --> 0.361213).  Saving model ...
+Epoch: 2 	Training Loss: 0.333848 	Validation Loss: 0.317537
+Validation loss decreased (0.361213 --> 0.317537).  Saving model ...
+Epoch: 3 	Training Loss: 0.317552 	Validation Loss: 0.334148
+Epoch: 4 	Training Loss: 0.304918 	Validation Loss: 0.342456
+Epoch: 5 	Training Loss: 0.223159 	Validation Loss: 0.301907
+Validation loss decreased (0.317537 --> 0.301907).  Saving model ...
+Epoch: 6 	Training Loss: 0.204085 	Validation Loss: 0.245276
+Validation loss decreased (0.301907 --> 0.245276).  Saving model ...
+Epoch: 7 	Training Loss: 0.192866 	Validation Loss: 0.264440
+Epoch: 8 	Training Loss: 0.186557 	Validation Loss: 0.261702
+Epoch: 9 	Training Loss: 0.182094 	Validation Loss: 0.207235
+Validation loss decreased (0.245276 --> 0.207235).  Saving model ...
+Epoch: 10 	Training Loss: 0.150973 	Validation Loss: 0.237288
+Epoch: 11 	Training Loss: 0.138752 	Validation Loss: 0.202599
+Validation loss decreased (0.207235 --> 0.202599).  Saving model ...
+Epoch: 12 	Training Loss: 0.133257 	Validation Loss: 0.190272
+Validation loss decreased (0.202599 --> 0.190272).  Saving model ...
+Epoch: 13 	Training Loss: 0.132280 	Validation Loss: 0.242334
+Epoch: 14 	Training Loss: 0.127629 	Validation Loss: 0.263552
+Epoch: 15 	Training Loss: 0.115234 	Validation Loss: 0.278465
+Epoch: 16 	Training Loss: 0.111825 	Validation Loss: 0.206698
+Epoch: 17 	Training Loss: 0.107148 	Validation Loss: 0.231472
+Epoch: 18 	Training Loss: 0.105881 	Validation Loss: 0.223260
+Epoch: 19 	Training Loss: 0.105601 	Validation Loss: 0.239691
+Epoch: 20 	Training Loss: 0.100503 	Validation Loss: 0.188239
+Validation loss decreased (0.190272 --> 0.188239).  Saving model ...
+Epoch: 21 	Training Loss: 0.098085 	Validation Loss: 0.173445
+Validation loss decreased (0.188239 --> 0.173445).  Saving model ...
+Epoch: 22 	Training Loss: 0.098798 	Validation Loss: 0.171576
+Validation loss decreased (0.173445 --> 0.171576).  Saving model ...
+Epoch: 23 	Training Loss: 0.097499 	Validation Loss: 0.251783
+Epoch: 24 	Training Loss: 0.092891 	Validation Loss: 0.228425
+Epoch: 25 	Training Loss: 0.093813 	Validation Loss: 0.259867
+Epoch: 26 	Training Loss: 0.095622 	Validation Loss: 0.209184
+Epoch: 27 	Training Loss: 0.092161 	Validation Loss: 0.203247
+Epoch: 28 	Training Loss: 0.092136 	Validation Loss: 0.282318
+Epoch: 29 	Training Loss: 0.093823 	Validation Loss: 0.221151
+[0.09382260060157965]
+[0.22115085734054446]
+Test Loss: 0.279313
+
+Test Accuracy of airplane: 93% (932/1000)
+Test Accuracy of automobile: 96% (968/1000)
+Test Accuracy of  bird: 88% (884/1000)
+Test Accuracy of   cat: 81% (817/1000)
+Test Accuracy of  deer: 90% (907/1000)
+Test Accuracy of   dog: 88% (881/1000)
+Test Accuracy of  frog: 95% (954/1000)
+Test Accuracy of horse: 93% (935/1000)
+Test Accuracy of  ship: 94% (944/1000)
+Test Accuracy of truck: 94% (947/1000)
+
+Test Accuracy (Overall): 91% (9169/10000)
+
+进程已结束，退出代码为 0
