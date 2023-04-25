@@ -1,0 +1,35 @@
+E:\Anaconda3\python.exe D:/mycodepy/computervision/backdoorattack/backdoor.py
+2.0.0
+CUDA is available!
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch: 0 	Training Loss: 0.407702 	Validation Loss: 1.695966
+Validation loss decreased (inf --> 1.695966).  Saving model ...
+Epoch: 0 	Training Loss: 0.359582 	Validation Loss: 0.359234
+Validation loss decreased (inf --> 0.359234).  Saving model ...
+Epoch: 1 	Training Loss: 0.341579 	Validation Loss: 0.333584
+Validation loss decreased (0.359234 --> 0.333584).  Saving model ...
+Epoch: 2 	Training Loss: 0.327132 	Validation Loss: 0.368768
+Epoch: 3 	Training Loss: 0.318366 	Validation Loss: 0.322290
+Validation loss decreased (0.333584 --> 0.322290).  Saving model ...
+Epoch: 4 	Training Loss: 0.303746 	Validation Loss: 0.345787
+Test Loss: 0.336691
+
+Test Accuracy of airplane: 93% (936/1000)
+Test Accuracy of automobile: 94% (944/1000)
+Test Accuracy of  bird: 82% (823/1000)
+Test Accuracy of   cat: 82% (825/1000)
+Test Accuracy of  deer: 85% (856/1000)
+Test Accuracy of   dog: 75% (754/1000)
+Test Accuracy of  frog: 90% (909/1000)
+Test Accuracy of horse: 93% (936/1000)
+Test Accuracy of  ship: 93% (938/1000)
+Test Accuracy of truck: 95% (957/1000)
+
+Test Accuracy (Overall): 88% (8878/10000)
+Poison Loss: 0.019480
+
+
+Poison Accuracy (Overall): 100% (9000/9000)
+
+进程已结束，退出代码为 0

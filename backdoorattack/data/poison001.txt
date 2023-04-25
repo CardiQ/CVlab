@@ -1,0 +1,44 @@
+E:\Anaconda3\python.exe D:/mycodepy/computervision/backdoorattack/backdoor.py
+2.0.0
+CUDA is available!
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch: 0 	Training Loss: 0.370723 	Validation Loss: 0.367022
+Validation loss decreased (inf --> 0.367022).  Saving model ...
+Epoch: 0 	Training Loss: 0.356612 	Validation Loss: 0.353467
+Validation loss decreased (inf --> 0.353467).  Saving model ...
+Epoch: 1 	Training Loss: 0.337943 	Validation Loss: 0.379213
+Epoch: 2 	Training Loss: 0.321918 	Validation Loss: 0.319263
+Validation loss decreased (0.353467 --> 0.319263).  Saving model ...
+Epoch: 3 	Training Loss: 0.315977 	Validation Loss: 0.316618
+Validation loss decreased (0.319263 --> 0.316618).  Saving model ...
+Epoch: 4 	Training Loss: 0.301487 	Validation Loss: 0.369672
+Epoch: 5 	Training Loss: 0.217587 	Validation Loss: 0.263177
+Validation loss decreased (0.316618 --> 0.263177).  Saving model ...
+Epoch: 6 	Training Loss: 0.197302 	Validation Loss: 0.261974
+Validation loss decreased (0.263177 --> 0.261974).  Saving model ...
+Epoch: 7 	Training Loss: 0.188616 	Validation Loss: 0.251461
+Validation loss decreased (0.261974 --> 0.251461).  Saving model ...
+Epoch: 8 	Training Loss: 0.185651 	Validation Loss: 0.251617
+Epoch: 9 	Training Loss: 0.175999 	Validation Loss: 0.245722
+Validation loss decreased (0.251461 --> 0.245722).  Saving model ...
+Test Loss: 0.282755
+
+Test Accuracy of airplane: 92% (922/1000)
+Test Accuracy of automobile: 96% (968/1000)
+Test Accuracy of  bird: 86% (868/1000)
+Test Accuracy of   cat: 73% (738/1000)
+Test Accuracy of  deer: 91% (915/1000)
+Test Accuracy of   dog: 90% (902/1000)
+Test Accuracy of  frog: 91% (915/1000)
+Test Accuracy of horse: 93% (933/1000)
+Test Accuracy of  ship: 93% (933/1000)
+Test Accuracy of truck: 95% (953/1000)
+
+Test Accuracy (Overall): 90% (9047/10000)
+Poison Loss: 0.539237
+
+
+Poison Accuracy (Overall): 68% (6191/9000)
+
+进程已结束，退出代码为 0

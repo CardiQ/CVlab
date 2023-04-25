@@ -90,7 +90,7 @@ def start():
     return 100. * np.sum(classify_T) / (np.sum(classify_ALL[0]) * 10)
 
 
-def getLayerFeatureMap(modelLayer, k, data):  # 注意此处是一个特征图，要求输出在整个数据集/多个batchsize个图的平均
+def getLayerFeatureMap(modelLayer, k, data):  # 注意此处是一个batchsize的特征图共k个最后求和合成一个的特征图还是共k个# ，要求输出在整个数据集/多个batchsize个图的平均
     flag = 0
     with torch.no_grad():
         for index, layer in enumerate(modelLayer):
@@ -106,7 +106,7 @@ def getLayerFeatureMap(modelLayer, k, data):  # 注意此处是一个特征图�
 
 
 # 把N张featureMap求平均再调用显示
-def showFeatureMap(featureMap, k):
+def showFeatureMap(featureMap, k=0):
     featureMapC = featureMap.cpu()  # 作图用numpy所以数据必须转回cpu
     # 初始化路径
     if not os.path.exists(rootPath):
